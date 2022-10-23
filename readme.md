@@ -1,5 +1,8 @@
 # Welcome to my site 
 
+![Screenshot of Site](assets/images/screen-1.png)
+> *Screenshot of my site*
+
 The intention of my site is to raise awareness around bushfires in Australia. 
 
 As there was no set sizing for this assignment so I built based on the dimensions: **1280px × 720px** 
