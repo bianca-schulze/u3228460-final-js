@@ -1,6 +1,6 @@
 # Welcome to my site 
 
-![Screenshot of Site](assets/images/screen-1.png)
+![Screenshot of Site](https://i.imgur.com/kh32OUT.png)
 > *Screenshot of my site*
 
 The intention of my site is to raise awareness around bushfires in Australia. 
