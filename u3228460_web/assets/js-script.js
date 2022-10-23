@@ -50,7 +50,7 @@ $(document).ready(function() {
     $(window).on("scroll", function() {
       var scrollpos = $(this).scrollTop();
       console.log($(this).scrollTop())
-      if(scrollpos < 19023){
+      if(scrollpos < 1923){
         dettachFlame()
       }
       else {
