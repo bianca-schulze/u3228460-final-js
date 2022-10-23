@@ -5,7 +5,7 @@
 
 <br>
 
-The intention of my site is to raise awareness around bushfires in Australia. The target audience is young adults who are interested in learning more about Australia's history and fire safety. 
+The intention of my site is to raise awareness around bushfires in Australia. The target audience is young adults who are interested in learning more about Australia's bushfire history and fire safety. 
 
 As there was no set sizing for this assignment, I aimed to best fit the following dimensions: **1280px × 720px** 
 
@@ -15,7 +15,7 @@ As there was no set sizing for this assignment, I aimed to best fit the followin
 
 ## Challenges 
 ### JavaScript 
-JavaScript is very new to me, so to achieve what I was able to do took a time, dedication and effort. It is like trying to learn another language, if you don't fully understand it, it feels impossible to write effectively using the language. As a result, I have managed to create some effects with JavaScript, however the code is not as efficient as it could be. 
+JavaScript is very new to me, so to achieve what I was able to do took a lot of time, dedication and effort. It is like trying to learn another language, if you don't fully understand it, it feels impossible to write effectively using the language. As a result, I have managed to create some effects with JavaScript, however the code is not as efficient as it could be. 
 
 ### Responsiveness 
 I understand the importance of creating responsive websites. Unfortunately for this assignment, I needed to spent  majority of my time trying to get the code to work which left me no time to improve the responsiveness and accessibility of the site. 
@@ -24,19 +24,19 @@ I understand the importance of creating responsive websites. Unfortunately for t
 There are a number of elements that I would have loved to animate, however given my limited understanding and short amount of time, I was unable to achieve some of the things I would have liked. 
 
 I would have liked to include:
-- **Scroll and slide effects**, where as you scroll through the fire safety instructions, the icons slide in from the right and the paragraphs fade in on scroll. 
+- **Scroll and slide effects**, where you scroll through the fire safety instructions and the icons slide in from the right and the paragraphs fade in on scroll. 
 - **Pop-up elements**, where you can hover over the statistics to show charts or graphs making this section more engaging. 
 - **Different layouts**, instead of a standard page scroll I would have liked to code a site that takes the user on a bit of a "journey", rather than making them scroll tirelessly to the bottom.  
 
 ## Strengths 
 ### HTML and CSS 
-Having prior understanding of HTML and CSS and a relative level of comfort with their syntax, allowed me to straight away dive in and create the basis of the site. It also allow me to create some animation using CSS. 
+Having prior understanding of HTML and CSS and a relative level of comfort with their syntax, allowed me to straight away dive in and create the basis of the site. It also allowed me to create some animation using CSS. 
 
 ### Troubleshooting 
 I am quite comfortable using inspect mode within the browser which made it easy for me to diagnose and fix small issues within the site. 
 
 ### Design 
-Being a design students makes it quite easy for me to ideate and plan what my site will look like. I did not have any issues when designing elements, colours and type for the site. 
+Being a design student makes it quite easy for me to ideate and plan what my site will look like. I did not have any issues when designing elements, colours and type for the site. 
 
 ## References 
 ### Inspirations
