@@ -18,7 +18,7 @@ As there was no set sizing for this assignment, I aimed to best fit the followin
 JavaScript is very new to me, so to achieve what I was able to do took a lot of time, dedication and effort. It is like trying to learn another language, if you don't fully understand it, it feels impossible to write effectively using the language. As a result, I have managed to create some effects with JavaScript, however the code is not as efficient as it could be. 
 
 ### Responsiveness 
-I understand the importance of creating responsive websites. Unfortunately for this assignment, I needed to spent  majority of my time trying to get the code to work which left me no time to improve the responsiveness and accessibility of the site. 
+I understand the importance of creating responsive websites. Unfortunately for this assignment, I needed to spend majority of my time trying to get the code to work which left me no time to improve the responsiveness and accessibility of the site. 
 
 ### Technical limitations 
 There are a number of elements that I would have loved to animate, however given my limited understanding and short amount of time, I was unable to achieve some of the things I would have liked. 
