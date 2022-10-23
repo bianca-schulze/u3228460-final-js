@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Noto+Serif+Gujarati:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nested-flex">
+                <a href="index.html"> <img id="logo" src="assets/images/aus-pixel-logo.jpg" alt="logo"></a>
+                <h1>The History of Bushfires in Australia</h1>
+            </div>
+            <div></div>
+            <button id="myBtn">About us</button>
+            <a href="#pos" class="button">Fire safety</a>
+            </div>
+            <!--  modal -->
+            <div id="myModal" class="modal">
+                <!-- modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img class="q-img" src="assets/images/fire" alt="pixel flame">
+                    <h2>About us</h2>
+                    <p class="bottom-padding">This site is dedicated to spread awareness about the detrimental effects
+                        that bushfires have had, and continue to have, on the Australia landscape. This site is for
+                        educational purposes only, if you are in an emergency, contact 000. <br> <br> If you have any
+                        feedback or suggestions, please contact us via</p>
+                    <a class="email" href="firesafety@uni.canberra.edu.au">firesafety@uni.canberra.edu.au</a>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!-- slideshow  -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="assets/images/gallery-1.png" alt="Gippsland Fires">
+                <div class="text">Gippsland Fires, 1926</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="assets/images/gallery-2.png" alt="Black Tuesday Fires">
+                <div class="text">Black Tuesday, 1967</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="assets/images/gallery-3.png" alt="Black Friday Fires">
+                <div class="text">Black Friday, 1939</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="assets/images/gallery-4.png" alt="Ash Wednesday Fires">
+                <div class="text">Ash Wednesday, 1983</div>
+            </div>
+        </div>
+        <!-- the dots -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="assets/js-script.js" type="text/javascript"></script>
+        <h2>Six of Australia's Worst Fires</h2>
+        </div>
+        <!-- first fire -->
+        <div class="p-fire">
+            <h3>1. Black Sunday (VIC), 1 Feb-10 Mar 1926</h3>
+            <p>Large areas of Gippsland caught fire, culminating in the Black Sunday fires on 14 February that
+                killed 31 people in Warburton, near Melbourne. The fires affected Victorian communities in Stawell (Deep
+                Lead), Yea, Moondarra, Grampians, Kinglake, and Anakie areas.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats">
+                <li>Burned area: 3900km2</li>
+                <li>Homes burned: 1000</li>
+                <li>Deaths: 60</li>
+                <li>Cost: Unknown</li>
+            </ul>
+            <div id="stats-bg">
+            </div>
+            </p>
+        </div>
+        <!-- second fire -->
+        <div class="p-fire">
+            <h3>2. Black Tuesday (TAS), 7 Feb 1967</h3>
+            <p>An unusually abundant spring covered Tasmanian forest floors with litter, providing excess fuel for
+                the bushfire season. Strong northerly winds and high temperatures coupled to help fuel the fire, which
+                swept over the south-east coast of the state and
+                came within 2km of central Hobart.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats-2">
+                <li>Burned area: 2642km2</li>
+                <li>Homes burned: 1300</li>
+                <li>Deaths: 62</li>
+                <li>Cost: $101 million AUD</li>
+            </ul>
+            <div id="stats-bg-2">
+            </div>
+            </p>
+        </div>
+        <!-- third fire -->
+        <div class="p-fire">
+            <h3>3. Black Friday (VIC), 13-20 Jan 1939</h3>
+            <p>Drought conditions and constant water shortages also preceded Black Friday, but the usual combination of high
+                temperatures, strong winds, and low humidity finally triggered fires throughout bush communities
+                near Melbourne. Accidents and arsonists also started some of the fires.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats">
+                <li>Burned area: 20,000km2</li>
+                <li>Homes burned: 650</li>
+                <li>Deaths: 71</li>
+                <li>Cost: $250 million AUD</li>
+            </ul>
+            <div id="stats-bg">
+            </div>
+            </p>
+        </div>
+        <!-- fourth fire -->
+        <div class="p-fire">
+            <h3>4. Ash Wednesday (VIC, SA), 16-18 Feb 1983</h3>
+            <p>Drought, gale-force winds and high temperatures set the scene for a
+                series of fires across Victoria and south-eastern South Australia. Accidents and arsonists started
+                most of the fires, which spread rapidly through scenic residential regions near Melbourne.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats-2">
+                <li>Burned area: 2080 km2</li>
+                <li>Homes burned: 1900</li>
+                <li>Deaths: 75</li>
+                <li>Cost: $200 million AUD</li>
+            </ul>
+            <div id="stats-bg-2">
+            </div>
+            </p>
+        </div>
+        <!-- fifth fire -->
+        <div class="p-fire">
+            <h3>5. Black Saturday (VIC), 7-8 Feb 2009</h3>
+            <p>Black Saturday resulted from some of the worst fire conditions ever recorded in Victoria. Record-high
+                temperatures and strong winds after a season of intense drought were contributing factors. Lots of
+                public and private infrastructure were damaged or destroyed.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats">
+                <li>Burned area: 4500km2</li>
+                <li>Homes burned: 2000</li>
+                <li>Deaths: 173</li>
+                <li>Cost: $1 billion AUD</li>
+            </ul>
+            <div id="stats-bg">
+            </div>
+            </p>
+        </div>
+        <!-- sixth fire -->
+        <div class="p-fire">
+            <h3>6. Black Summer, July 2019 – March 2020</h3>
+            <p>High temperatures following years of repeated drought brought one of the worst bushfires seasons to
+                ever strike. The Black Summer fires ravaged the Australian landscape, in NSW alone 5.4 million
+                hectares burned sending recording breaking temperatures across the country.</p>
+            <div id="p-fire-bg"></div>
+            <ul class="stats-2">
+                <li>Burned area: 243,000km2</li>
+                <li>Homes burned: 3,500</li>
+                <li>Deaths: 479</li>
+                <li>Cost: $78-88 billion AUD</li>
+            </ul>
+            <div id="stats-bg-2">
+            </div>
+            </p>
+        </div>
+        <a href="#!" class="flame-change">
+            <img src="assets/images/flame-1" alt="pixel flame">
+        </a>
+        <div class="small-space"></div>
+        <div class="scroll-item">
+            <a href="#pos" class="scroll-down" address="true"></a>
+        </div>
+        <section id="pos">
+            <h1 id="safety-header">Fire Safety</h1>
+            <p id="fire-safety-tip">Scroll to see the three most important rules of fire safety </p>
+            <div class="icon-flex">
+                <img id="icon" src="assets/images/icon-smoke-org.png" alt="smoke icon">
+                <img id="icon" src="assets/images/icon-plan.png" alt="plan icon">
+                <img id="icon" src="assets/images/icon-escape.png" alt="escape icon">
+            </div>
+            <div class="spacing"></div>
+            <div class="scroll-item-2">
+                <a href="#pos-2" class="scroll-down" address="true"></a>
+            </div>
+        </section>
+        <!-- second section  -->
+        <section id="pos-2">
+            <h1 id="safety-header">Tip 1: Install smoke alarms</h1>
+            <p class="black-text" id="fire-safety-tip">A smoke alarm is critical for the early detection of a fire in
+                your home and could mean the difference
+                between life and death. Fires can occur in a variety of ways and in any room of your home. But no
+                matter where or how, having a smoke alarm is the first key step toward your family’s safety. </p>
+            <div class="arrow" class="up"></div>
+            <img src="assets/images/icon-smoke.png" alt="smoke icon">
+            <div class="spacing"></div>
+            <div class="scroll-item-2">
+                <a href="#pos-3" class="scroll-down" address="true"></a>
+            </div>
+        </section>
+        <section id="pos-3">
+            <h1 id="safety-header">Tip 2: Create a fire safety plan</h1>
+            <p id="fire-safety-tip">Having a home escape plan in conjunction with a working smoke alarm will greatly
+                increase your chances of getting out safely. Every second counts. As a minimum, your escape plan should
+                include at least two exit points from every room and a safe meeting place outside. </p>
+            <img src="assets/images/icon-plan.png" alt="plan icon">
+            <div class="spacing"></div>
+            <div class="scroll-item-2">
+                <a href="#pos-4" class="scroll-down" address="true"></a>
+            </div>
+        </section>
+        <section id="pos-4">
+            <h1 id="safety-header">Tip 3: Get down, get low, get out</h1>
+            <p id="fire-safety-tip">In a fire, smoke and poisonous air hurt more people than the actual flames do.
+                You'll breathe less smoke if you stay close to the ground. Smoke naturally rises, so if there is smoke
+                while you're using your escape route, staying low means you can crawl under most of it. </p>
+            <img src="assets/images/icon-escape.png" alt="escape icon">
+        </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a class="to-top" href="#top">Back to top</a>
+        </div>
+    </footer>
+</body>
+</html>
